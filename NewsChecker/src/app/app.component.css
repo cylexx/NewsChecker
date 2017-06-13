@@ -1,0 +1,126 @@
+/*** Header row ***/
+.marg17{
+  margin: 17px 17px 0 17px;
+}
+
+#spinnerWrapper{
+  width: 100px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 46%;
+  margin-bottom: 1%;
+}
+.search{
+  fill:#000000;
+  cursor:pointer;
+  height:32px;
+  -webkit-transition: fill .5s;
+  transition: fill .5s;
+}
+.search:hover{
+  fill:#6DB9FF;
+}
+
+/* Background of the tag-input field */
+.field{
+  background-color: #FFF;
+}
+#logo{
+  margin-right: 10px;
+  width:270px;
+}
+
+.wikilinks{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.input-group-btn{
+  padding: 0 8px;
+}
+
+.myfooter{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*** Media ***/
+#mainPanel{
+  background-color: rgba(255,255,255,0.9);
+  border: solid 1px #787878;
+}
+@media (max-height: 640px){
+  #mainPanel{
+    height: 280px;
+  }
+}
+@media (max-height: 800px){
+  #mainPanel{
+    height: 380px;
+  }
+}
+@media (max-height: 1000px){
+  #mainPanel{
+    height: 520px;
+  }
+}
+
+#articlesList{
+  margin-bottom:0;
+}
+
+
+/*** UTILITIES ***/
+
+/* Used to hide and collapse text too big */
+.collapser{
+  width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.paddingleft{
+  padding-left:10%;
+}
+
+.width90{
+  margin-left:10px;
+  width:90%;
+}
+
+.center{
+	margin-left:10%;
+	margin-right: 10%;
+}
+
+#imgInfo{
+  height: 40px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Animations */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn{
+  opacity:0;
+  -webkit-animation:fadeIn ease-in-out 1;
+  -moz-animation:fadeIn ease-in-out 1;
+  animation:fadeIn ease-in-out 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.6s;
+  -moz-animation-duration:0.6s;
+  animation-duration:0.6s;
+}

@@ -1,0 +1,7 @@
+{
+  "name":"Test",
+  "text": "<b>Je suis un texte popup provenant de Wikipedia</b>",
+  "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+  "pageid":"1",
+  "link":"https://en.wikipedia.org/wiki/Donald_Trump"
+}

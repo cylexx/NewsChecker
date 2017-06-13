@@ -1,0 +1,50 @@
+{
+  "globalScore" : 60.453,
+  "sources": [
+    {
+      "name": "20 Minutes",
+      "link": "https://www.popmalt.com/the-chronicles-of-rick-roll/",
+      "text": "Macron prend les devants",
+      "img": "https://upload.wikimedia.org/wikipedia/fr/thumb/3/33/Logo_20_Minutes.svg/1200px-Logo_20_Minutes.svg.png",
+      "type": "rss",
+      "score": "78",
+      "date": "11/05/2017"
+    },
+    {
+      "name": "Le Monde",
+      "link": "https://www.popmalt.com/the-chronicles-of-rick-roll/",
+      "text": "Emmanuel Macron élu président !",
+      "img": "http://paulseabright.com/wp-content/uploads/2012/01/Y785tLogoLeMonde.gif",
+      "type": "rss",
+      "score": "92",
+      "date": "04/05/2017"
+    },
+    {
+      "name": "@TPMP",
+      "link": "https://www.popmalt.com/the-chronicles-of-rick-roll/",
+      "text": "Gille Verdez président !",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/66/TPMP_saison_7_logo.png",
+      "type": "twitter",
+      "score": "40",
+      "date": "14/05/2017"
+    },
+    {
+      "name": "NewYork Times",
+      "link": "https://www.popmalt.com/the-chronicles-of-rick-roll/",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget lacinia ligula. Vestibulum sit amet facilisis augue. Fusce vehicula risus viverra, vehicula justo ac, dapibus augue. Suspendisse sit amet lobortis sapien. Sed tincidunt justo non tincidunt egestas. Nulla malesuada eu sem a facilisis. Nullam sit amet justo in orci euismod rutrum ut id lacus. Morbi commodo, eros vel bibendum iaculis, nunc nibh finibus sapien, vel sollicitudin mi urna vel purus. In tincidunt, elit sit amet bibendum egestas, urna lorem iaculis nisi, a aliquet elit mi vel massa. Morbi condimentum elementum odio. Proin augue nibh, dignissim tincidunt scelerisque non, porta ut quam.",
+      "img": "https://graphism.fr/wp-content/uploads/2017/02/xl2.jpg",
+      "type": "rss",
+      "score": "10",
+      "date": "28/08/2014"
+    },
+    {
+      "name": "The Guardian",
+      "link": "https://www.popmalt.com/the-chronicles-of-rick-roll/",
+      "text": "The French macaron will win the election",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/The_Guardian.svg/1280px-The_Guardian.svg.png",
+      "type": "rss",
+      "score": "80",
+      "date": "10/05/2017"
+    }
+  ]
+}

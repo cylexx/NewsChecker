@@ -1,0 +1,63 @@
+
+md-card{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  width: 400px;
+  height: 240px;
+}
+
+md-card p{
+  margin-bottom: 10px;
+  text-align:justify;
+}
+.content{
+  color:#676767;
+}
+
+.collapser{
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+}
+
+.selected{
+  background-color: #5790F8;
+  color: #FFF;
+}
+.selected p{
+  color: #EEEEEE;
+}
+
+/* Overrating */
+md-card-header{
+  margin-bottom: 8px;
+}
+md-card-actions{
+  padding:0;
+}
+md-card-title{
+  font-size: 18px !important;
+  padding-top: 8px;
+}
+
+
+/* Animations */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn{
+  opacity:0;
+  -webkit-animation:fadeIn ease-in-out 1;
+  -moz-animation:fadeIn ease-in-out 1;
+  animation:fadeIn ease-in-out 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.6s;
+  -moz-animation-duration:0.6s;
+  animation-duration:0.6s;
+}

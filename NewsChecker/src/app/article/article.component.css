@@ -1,0 +1,101 @@
+table{
+  width: 100%;
+}
+tr{
+  padding:0 10px;
+}
+td{
+  width:100%;
+}
+.spinner-column{
+  padding-right: 10px;
+}
+
+.media{
+  margin-top:0;
+  display:inline-flex;
+  width:100%;
+}
+.media-icon{
+  height:60px;
+  width:60px;
+}
+.media-body{
+  border-bottom: solid 1px #D7D7D7;
+  display: inline-flex;
+  width: 100%;
+  padding-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  padding-bottom: 10px;
+}
+.date{
+  color:#5C5C5C;
+  float:right;
+}
+.width90{
+  margin-left:10px;
+  width:90%;
+}
+h4{
+  margin:0;
+  display: inline;
+}
+
+.vote{
+  float: left;
+  margin-left: 45%;
+  -webkit-transform: translate(0px, 50px);
+  transform: translate(0px, 50px);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.show{
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+/* Voting thumbs */
+.up{
+  content:url("../../assets/like.png");
+}
+.down{
+  content:url("../../assets/dislike.png");
+}
+.thumb{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.thumb:hover{
+  opacity: 0.5;
+}
+.updisabled{
+  cursor:not-allowed !important;
+  content:url("../../assets/like_disabled.png") !important;
+}
+.downdisabled{
+  cursor:not-allowed !important;
+  content:url("../../assets/dislike_disabled.png") !important;
+}
+
+.article{
+  overflow-y: hidden;
+  cursor:pointer;
+}
+.selected:hover{
+  background-color: rgba(246,253,255,0.9);
+}
+.linkSelected{
+  color:#0477cc;
+}
+
+.collapser{
+  /*white-space: nowrap;*/
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  max-height: 50px;
+}

@@ -1,0 +1,71 @@
+[
+	{
+		"src" :"http://feeds.bbci.co.uk/news/world/rss.xml",
+		"name": "BBC",
+		"subject" : "World"
+	},
+	{
+		"src" :"http://feeds.bbci.co.uk/news/politics/rss.xml",
+		"name": "BBC",
+		"subject" : "Politics"
+	},
+	{
+		"src" :"http://feeds.bbci.co.uk/news/business/rss.xml",
+		"name": "BBC",
+		"subject" : "Business"
+	},
+	{
+		"src" :"http://rss.cnn.com/rss/edition_world.rss",
+		"name": "CNN",
+		"subject" : "World",
+		"fakenews":false
+	},
+	{
+		"src" :"http://rss.cnn.com/rss/edition_europe.rss",
+		"name": "CNN",
+		"subject" : "Europe",
+		"fakenews":false
+	},
+	{
+		"src" :"http://feeds.foxnews.com/foxnews/latest",
+		"name": "FoxNews",
+		"subject" : "Latest",
+		"fakenews":false
+	},
+	{
+		"src" :"http://feeds.feedburner.com/ndtvnews-world-news",
+		"name": "NDTV",
+		"subject" : "World",
+		"fakenews":false
+	},
+	{
+		"src" :"http://feeds.feedburner.com/ndtvprofit-latest",
+		"name": "NDTV",
+		"subject" : "Latest",
+		"fakenews":false
+	},
+	{
+		"src" :"http://feeds.skynews.com/feeds/rss/world.xml",
+		"name": "Skynews",
+		"subject" : "World",
+		"fakenews":false
+	},
+	{
+		"src":"http://www.theonion.com/feeds/rss",
+		"name":"TheOnion",
+		"subject":"Latest",
+		"fakenews":true
+	},
+	{
+		"src":"http://babylonbee.com/feed/",
+		"name":"BabylonBee",
+		"subject":"Latest",
+		"fakenews":true
+	},
+	{
+		"src":"http://www.clickhole.com/feeds/rss",
+		"name":"ClickHole",
+		"subject":"Latest",
+		"fakenews":true
+	}
+]

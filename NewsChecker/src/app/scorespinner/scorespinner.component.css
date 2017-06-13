@@ -1,0 +1,18 @@
+/*** Spinner ***/
+.spinner{
+	margin: auto;
+}
+.wrapper{
+	position:relative;
+	margin-bottom: 1%;
+}
+.score{
+	position:absolute;
+	top: 50%;
+	bottom: auto;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	/*font-size: 35px;*/
+	-webkit-transition: font-size .5s;
+	transition: font-size .5s;
+}

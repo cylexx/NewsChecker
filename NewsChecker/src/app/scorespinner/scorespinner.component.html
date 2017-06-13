@@ -1,0 +1,14 @@
+<div class="wrapper">
+	<div class="score" [style.font-size]="font">{{scoreStr}}</div>
+	<round-progress class="spinner"
+		[current]="score"
+		max="100"
+		[clockwise]="true"
+		[duration]="800"
+		[animation]="'easeInOutQuart'"
+		[rounded]="true"
+		[radius]="radius"
+		[stroke]="radius/6"
+		[color]="color">
+	</round-progress>
+</div>

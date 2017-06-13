@@ -1,0 +1,26 @@
+<div (click)="openLink()" on-mouseenter="articleOver()" on-mouseleave="articleLeave()" [ngClass]="{'article':true, 'selected':true}">
+	<table>
+		<tr>
+			<td> <!-- Media -->
+				<div class="media">
+					<div class="media-body">
+						<img class="media-icon align-self-start" src="{{article.img}}">
+						<div class="width90">
+							<h4 [ngClass]="{'mt-0':true, 'linkSelected':selected}">{{article.name}}</h4>
+							<div [ngClass]="{'collapser':true, 'linkSelected':selected}">{{article.text}}</div>
+							<!-- Voting thumbs -->
+							<div on-mouseenter="thumbOver()" on-mouseleave="thumbLeave()" [ngClass]="{'vote':true, 'show':selected }">
+								<img (click)="voteup()" [ngClass]="{'up':true, 'thumb':true, 'updisabled':!upEnabled}">
+								<img (click)="votedown()" [ngClass]="{'down':true, 'thumb':true, 'downdisabled':!downEnabled}">
+							</div>
+							<span class="date">{{article.date}}</span>
+						</div>
+					</div>
+				</div>
+			<td>
+			<td class="spinner-column">
+				<app-scorespinner [score]="article.score" [radius]="25"></app-scorespinner>
+			</td>
+		</tr>
+	</table>
+</div>

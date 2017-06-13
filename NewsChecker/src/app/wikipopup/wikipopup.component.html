@@ -1,0 +1,13 @@
+<md-card [ngClass]="{'fadeIn':true,'selected':selected}">
+
+	<md-card-header>
+    	<div md-card-avatar [ngStyle]="{'background-image':'url('+wikiInfo.img+')', 'background-size':'cover' }"></div>
+	    <md-card-title>{{wikiInfo.display}}</md-card-title>
+	</md-card-header>
+	<md-card-content>
+		<p id="{{wikiInfo.value}}" [innerHTML]="wikiInfo.text" class="content collapser"></p>
+	</md-card-content>
+	<md-card-actions *ngIf="wikiInfo.link != undefined">
+		<a md-button href="{{wikiInfo.link}}" target="_blank">SEE</a>
+	</md-card-actions>
+</md-card>
