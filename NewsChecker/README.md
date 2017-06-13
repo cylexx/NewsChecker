@@ -5,6 +5,7 @@ Here is the client side of the app, built in Angular 4.
 ## Tools
 
 The app currently uses:
+
 * Bootstrap v3+
 * [ng2-tag-input](https://github.com/Gbuomprisco/ng2-tag-input/) (Angular module) v1.2.8
 * [Angular Material](https://material.angular.io/)
@@ -14,7 +15,7 @@ The app currently uses:
 ## Installation
 
 First, in this folder, run
-````sh
+```sh
 $ yarn
 ```
 or
@@ -42,8 +43,8 @@ The starting point of the app is the app.component.* files. It defines the globa
 
 All the server requests are defined in the api.service.ts file. Feel free to code additional requests over here.
 
-```javascript
-public `request(params:any){
+```js
+public request(params:any){
 		let url:string = this.serverURL+'path?param='+params;
 		/* STUFF HERE IF NEEDED */
 		return this.http.get(url)
@@ -53,7 +54,8 @@ public `request(params:any){
 ```
 
 You can catch the response by using
-````javascript
+
+```js
 this.api.request(params).subscribe{
 	res => {
 		this.showSuccess("Success"); //Don't forget to use the toasts to indicate the user how went the request
@@ -68,4 +70,5 @@ this.api.request(params).subscribe{
 ## What's planned
 
 See our public [Trello](http://trello.com/b/0x5pukld/news-checker) to see what is left to do :)
+
 Feel free to edit it and suggest ideas.
